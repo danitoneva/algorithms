@@ -10,6 +10,12 @@ class UniqueModule:
 
     @staticmethod
     def is_unique(string: str) -> bool:
+        """
+        Checks if all characters in a string are unique.
+
+        :parameter string
+        :return: True/False
+        """
         string = string.lower()
         unique_char = set(string)
         string = list(string)
@@ -17,4 +23,4 @@ class UniqueModule:
             return True
         else:
             return False
-                
+           

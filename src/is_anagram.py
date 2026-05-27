@@ -15,6 +15,7 @@ class AnagramModule:
 
         :parameter string1: first string
         :parameter string2: second string
+        :return: True/False
         """
         if string1.isalpha() and string2.isalpha():
             string1 = string1.lower()
