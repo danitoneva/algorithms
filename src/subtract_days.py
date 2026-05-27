@@ -8,7 +8,7 @@ class SubtractModule:
     """This class subtracts 5 days from the current date."""
 
     @staticmethod
-    def subtract_days_from_current_date():
+    def subtract_days_from_current_date(days: int):
         """
         Subtracts 5 days from the current date.
 
