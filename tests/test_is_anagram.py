@@ -34,7 +34,7 @@ class TestAnagramModule(unittest.TestCase):
         expected_result = False
         actual_result = AnagramModule.is_anagram(string1= "string)", string2= "str*ing")
         self.assertEqual(expected_result, actual_result)
-
+        
     def test_two_strings_anagrams_with_digits(self):
         expected_result = False
         actual_result = AnagramModule.is_anagram(string1= "string9", string2= "str5ing")
