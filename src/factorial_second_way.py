@@ -3,13 +3,13 @@ This module finds factorial.
 """
 
 
-class FactorialModule:
+class SecondFactorialModule:
     """
     This class finds factorial 
     """
 
     @staticmethod
-    def factorial(number: int) -> int:
+    def factorial_second(number: int) -> int:
         """
         Finds factorial 
 
@@ -20,4 +20,4 @@ class FactorialModule:
             raise ValueError("The number should be equal or greater than 0.")
         if number == 0:
             return 1
-        return (number * factorial(number - 1))
+        return number * SecondFactorialModule.factorial_second(number-1)
