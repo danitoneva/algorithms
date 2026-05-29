@@ -21,5 +21,4 @@ class UniqueModule:
         string = list(string)
         if len(unique_char) == len(string):
             return True
-        else:
-            return False
+        return False
