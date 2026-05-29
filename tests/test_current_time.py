@@ -3,7 +3,6 @@ Test for my current time module.
 """
 import unittest
 from datetime import datetime
-from src.current_time import CurrentTime
 
 
 class TestCurrentTime(unittest.TestCase):
