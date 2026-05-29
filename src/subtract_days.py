@@ -8,11 +8,11 @@ class SubtractModule:
     """This class subtracts 5 days from the current date."""
 
     @staticmethod
-    def subtract_days_from_current_date(days: int):
+    def subtract_days_from_current_date(days: int) -> int:
         """
         Subtracts 5 days from the current date.
 
         :parameter: date
-        :return:
+        :return date after subtraction 
         """
         return date.today() - timedelta(days = 5)
