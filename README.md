@@ -2,13 +2,13 @@
 
 ## Description 
 The following algorithms were developed in this project:
-    - module that cheks wether two string are anagrams
-    - module that checks if all characters in a string are unique 
-    - module that gets the current time
-    - module that substract five days from the current day 
-    - module that finds the missing number in an array between 10 and 20
-    - module that gives first 10 fibonacci numbers
-    - module that finds factorial in two different ways:
+    * module that cheks wether two string are anagrams
+    * module that checks if all characters in a string are unique 
+    * module that gets the current time
+    * module that substract five days from the current day 
+    * module that finds the missing number in an array between 10 and 20
+    * module that gives first 10 fibonacci numbers
+    * module that finds factorial in two different ways:
             * with for loop 
             * with recursion 
 
