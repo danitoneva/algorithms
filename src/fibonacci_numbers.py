@@ -11,7 +11,7 @@ class FibonacciModule:
     @staticmethod
     def fibonacci(number: int) -> int:
         """
-        Gives 
+        Gives first 10 fibonacci numbers.
         """
         if number != 10:
             raise ValueError("It should print the first 10 numbers.")
@@ -22,4 +22,4 @@ class FibonacciModule:
         for num in range(10):
             numbers.append(first_number)
             first_number, second_number = second_number, first_number + second_number
-        return numbers    
+        return numbers
